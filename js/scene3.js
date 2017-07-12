@@ -1,13 +1,13 @@
 function scene3() {
 
   // Setup Stage
-  mySrc = desert.getAttribute('src')
+  stage = document.querySelector('#stage')
+  desert = document.querySelector('#desert')
+  desertImgSrc = desert.getAttribute('src')
   stageImg = document.querySelector('#stage-img')
-  stageImg.setAttribute('src', mySrc)
-
+  stageImg.setAttribute('src', desertImgSrc)
 
   // Setup Cast
-
   // Character 1
 
   // Character 2
