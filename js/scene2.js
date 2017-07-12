@@ -1,7 +1,7 @@
 function scene2() {
   console.log('Executing scene 2!')
   // Setup Stage
-
+  stage = document.queryselector('#stage')
   // Setup Cast
 
   // Character 1
